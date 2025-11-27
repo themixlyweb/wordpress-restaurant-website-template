@@ -1,0 +1,111 @@
+/*!
+Theme Name: Resto One Wordpress Theme
+Theme URI:  https://themixly.com/
+Author:     Themixly
+Author URI: https://themixly.com/
+Description: RestoOne is a premium, single-page Wordpress Theme crafted for upscale restaurants, gourmet chefs, and fine dining establishments. Featuring a sophisticated black and gold aesthetic, RestoOne delivers a luxurious and modern online experience that reflects the elegance of your culinary brand.
+Version:    1.0.0
+Text Domain: themixly
+Tested up to: 5.4
+Requires PHP: 5.6
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: resto-one
+Tags: Cafe Website Theme, Fast Loading Theme, Food & Beverage Wordpress Theme, Gourmet Food Website Theme, Mobile First Design, Modern UI Theme, One Page Wordpress Theme, Wordpress Business Theme, Wordpress Food Brand Theme, Responsive Wordpress Theme, Restaurant Landing Page Theme, SEO Friendly Food Theme
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned.
+
+Resto One is based on Underscores https://underscores.me/, (C) 2012-2020 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+
+Normalizing styles have been helped along thanks to the fine work of
+Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
+*/
+
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+# Generic
+	- Normalize
+	- Box sizing
+# Base
+	- Typography
+	- Elements
+	- Links
+	- Forms
+## Layouts
+# Components
+	- Navigation
+	- Posts and pages
+	- Comments
+	- Widgets
+	- Media
+	- Captions
+	- Galleries
+# plugins
+	- Jetpack infinite scroll
+# Utilities
+	- Accessibility
+	- Alignments
+
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+# Generic
+--------------------------------------------------------------*/
+
+/* Normalize
+--------------------------------------------- */
+
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+
+/* Document
+	 ========================================================================== */
+
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+html {
+	line-height: 1.15;
+	-webkit-text-size-adjust: 100%;
+}
+
+/* Sections
+	 ========================================================================== */
+
+/**
+ * Remove the margin in all browsers.
+ */
+body {
+	margin: 0;
+}
+
+/**
+ * Render the `main` element consistently in IE.
+ */
+main {
+	display: block;
+}
+h1 > span, h2 > span {color:#bb8e5d;}
+.elementor-location-header.active > div {background: #0c0a09f2;}
+.e--pointer-underline .elementor-item:after {background-color: #BB8E5D !important;}
+.e-n-tabs-heading > button {cursor: pointer;}
+.teamgroup {
+    opacity: 0;
+    transform: translateY(10px);
+    transition: opacity 0.4s ease, transform 0.4s ease;
+}
+
+.teamgroupmain:hover img {opacity: 0.7;}    
+.teamgroupmain:hover .teamgroup {
+    opacity: 1;
+    transform: translateY(0);
+}
+.boxcontainer {overflow: hidden !important;position: relative !important;}
+.boxcontainer img {
+    width: 100%;
+    transition: transform 0.4s ease;
+}
+.custom_counters .elementor-counter-title {text-align:center;}
